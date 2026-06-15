@@ -144,7 +144,7 @@ footer a {
     color: goldenrod
 }
 .handbook-table td {
-    border: 5px solid whitesmoke;
+    border: 5px solid white;
     padding: 12px;
     vertical-align: top;
     line-height: 1.4;
@@ -159,3 +159,28 @@ footer a {
 .handbook-table tr td:nth-child(3) {
   width: 70%;              
 }        
+.pagination {
+  display: flex;
+  justify-content: center; 
+  gap: 15px;               
+  margin: 30px 0;          
+}
+
+.page-num {
+  color: #3498db;          
+  text-decoration: none;   
+  font-family: sans-serif;
+  font-size: 24px;         
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.2s;
+}
+
+.page-num:hover {
+  color: #ffffff;
+}
+
+.page-num.active {
+  color: crimson;         
+  border-bottom: 2px solid goldenrod; 
+}
