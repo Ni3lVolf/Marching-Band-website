@@ -22,7 +22,8 @@ footer {
     Background-color: crimson;
     text-Color: goldenrod;
     text-align: centered;
-    padding: 30px 10px;
+    padding: 15px 10px;
+    font-size: 22px;
 }
 footer a {
     color:goldenrod;
@@ -34,8 +35,8 @@ footer a {
     gap: 15px;
     margin: 10px 0;
 }
-.social icons a {
-    width: 30px;
+.social-icons a img {
+    width: 55px;
     height: auto;
 }
 .calendar-zone {
@@ -90,4 +91,44 @@ footer a {
 }
 .slide.active {
  opacity: 1;
+}
+.contact-link {
+    color: goldenrod;
+    text-decoration: underlinel 
+    font-family: sans-serif;
+    font-size: 26px;
+    display: incline-block;
+    margin-top: 15px;
+}
+.contact-link:hover {
+    color: gold
+}
+.band-footer {
+    text-align: center;
+}
+.handbook-divider {
+    border: 0;
+    height: 2px;
+    background: goldenrod;
+    margin: 20px auto;
+    width: 50%;
+}
+.handbook-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: sans-serif;
+    color: goldenrod;
+}
+.handbook-container h2 {
+    color: crimson; 
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.handbook-container h3 {
+    background-color: crimson;
+    color: goldenrod;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: block;
 }
